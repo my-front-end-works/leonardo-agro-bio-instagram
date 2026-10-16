@@ -1,11 +1,15 @@
 import Image from "next/image";
 import Header from "./_components/header";
+import Icons from "./_components/icons";
 
 export default function Home() {
   return (
-    <main className="w-full h-screen bg-black flex justify-center items-center">
-      <div className="w-full h-screen flex flex-col justify-start items-start md:p-5">
+    <main className="w-full h-screen flex flex-col justify-start items-center gap-5">
+      <div className="w-full h-auto flex flex-col justify-start items-center md:p-5">
         <Header />
+      </div>
+      <div className="w-full h-auto flex justify-center items-center">
+        <Icons/>
       </div>
     </main>
   );
