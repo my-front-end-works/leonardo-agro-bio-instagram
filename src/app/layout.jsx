@@ -13,7 +13,7 @@ const inter = Inter({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-br">
       <body className={`${montserrat.variable} ${inter.variable}`}>
         {children}
       </body>
