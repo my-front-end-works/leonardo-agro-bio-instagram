@@ -29,9 +29,8 @@ export default function Cards() {
               type="button"
               onClick={() => setOption(0)}
               aria-label="Ver primeira descrição"
-              disabled={option === 0}
               className={`cursor-pointer ${
-                option === 0 ? "text-green-700" : "text-gray-500"
+                option === 1 ? "text-green-700" : "text-gray-500"
               }`}
             >
               <IoMdArrowBack />
@@ -41,9 +40,8 @@ export default function Cards() {
               type="button"
               onClick={() => setOption(1)}
               aria-label="Ver segunda descrição"
-              disabled={option === 1}
               className={`cursor-pointer ${
-                option === 1 ? "text-green-700" : "text-gray-500"
+                option === 0 ? "text-green-700" : "text-gray-500"
               }`}
             >
               <IoMdArrowForward />

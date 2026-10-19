@@ -26,7 +26,7 @@ export default function Header() {
         {/* Conteúdo principal */}
         <div className="flex h-auto w-full flex-col gap-10 sm:p-10 md:p-30 xl:p-60">
           <h2 className="text-4xl font-bold text-white md:text-6xl">
-            Profissional no agronegócio
+            Profissional no Agronegócio
           </h2>
 
           <p className="text-md text-white md:text-xl">
