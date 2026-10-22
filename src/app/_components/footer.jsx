@@ -30,7 +30,10 @@ export default function Footer() {
       <div className="flex h-auto w-full items-center justify-start rounded-2xl p-2 text-center">
         <p className="text-white">
           © Feito por{" "}
-          <a href="https://www.instagram.com/__andredev__?srtk=MXBzcHdxdTZ2cG5tMA==" target="_blank">
+          <a
+            href="https://www.instagram.com/__andredev__?srtk=MXBzcHdxdTZ2cG5tMA=="
+            target="_blank"
+          >
             <span className="cursor-pointer hover:text-blue-300">
               André Luiz
             </span>

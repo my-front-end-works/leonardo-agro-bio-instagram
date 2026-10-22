@@ -9,7 +9,7 @@ export default function Icons() {
             key={idx}
             className="text-green-950 flex justify-center items-center flex-wrap "
           >
-            <Link href={value.href}>
+            <Link href={value.href} target="_blank">
               <span className="w-10 h-10 md:w-10 md:h-10 text-xl bg-gray-100 rounded-full flex justify-center items-center text-green-800">
                 {value.icon}
               </span>
