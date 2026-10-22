@@ -39,6 +39,7 @@ export default function Header() {
           <div className="flex h-auto w-full items-center justify-start">
             <a
               href="https://wa.me/558195799157"
+              target="_blank"
               className="flex h-12 w-full items-center justify-center rounded-3xl bg-white font-semibold text-black transition-colors hover:bg-gray-200 md:h-15 md:w-1/2 md:rounded xl:w-1/3"
             >
               Entre em contato!
