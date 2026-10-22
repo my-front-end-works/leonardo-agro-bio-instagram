@@ -1,4 +1,8 @@
+import Header from "./_components/header";
+import Footer from "./_components/footer";
+
 import { Montserrat, Inter } from "next/font/google";
+
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -14,8 +18,10 @@ const inter = Inter({
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body className={`${montserrat.variable} ${inter.variable}`}>
+      <body className={`${montserrat.variable} ${inter.variable} w-full min-h-screen`}>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

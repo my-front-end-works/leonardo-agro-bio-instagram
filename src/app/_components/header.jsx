@@ -30,15 +30,15 @@ export default function Header() {
           </h2>
 
           <p className="text-md text-white md:text-xl">
-            Estudante de Zootecnia, interessado em produção animal, nutrição,
-            manejo e bem-estar dos animais. Busco aprimorar meus conhecimentos e
-            desenvolver habilidades práticas que contribuam para uma produção
-            agropecuária mais eficiente, sustentável e responsável.
+            Técnico em agropecuária, graduando em Zootecnia. Meu foco é ser um
+            melhorador na produtividade animal, bem estar, nutrição,
+            planejamento rural visando o melhor resultado lucrativo para seu
+            negócio sem abrir mão da sustentabilidade.
           </p>
 
           <div className="flex h-auto w-full items-center justify-start">
             <a
-              href="#contato"
+              href="https://wa.me/558195799157"
               className="flex h-12 w-full items-center justify-center rounded-3xl bg-white font-semibold text-black transition-colors hover:bg-gray-200 md:h-15 md:w-1/2 md:rounded xl:w-1/3"
             >
               Entre em contato!

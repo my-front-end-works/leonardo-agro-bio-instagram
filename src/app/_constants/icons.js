@@ -1,45 +1,14 @@
-import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaSnapchat,
-  FaTelegram,
-  FaTiktok,
-  FaWhatsapp,
-  FaYoutube,
-} from "react-icons/fa";
-import { FaThreads } from "react-icons/fa6";
+import { FaInstagram, FaTelegram, FaWhatsapp } from "react-icons/fa";
 
 export const icons = [
   {
-    icon: <FaFacebook />,
-    alt: "",
-    href: "",
-  },
-  {
     icon: <FaInstagram />,
-    alt: "",
-    href: "",
-  },
-  {
-    icon: <FaTiktok />,
-    alt: "",
-    href: "",
-  },
-  {
-    icon: <FaLinkedin />,
-    alt: "",
-    href: "",
-  },
-  {
-    icon: <FaTelegram />,
-    alt: "",
-    href: "",
+    alt: "Instagram",
+    href: "https://www.instagram.com/_leonardo.pires_?obrf=MWR6M2I3aGt0dG43dA==",
   },
   {
     icon: <FaWhatsapp />,
-    alt: "",
-    href: "",
+    alt: "WhatsApp",
+    href: "https://wa.me/558195799157",
   },
-
 ];

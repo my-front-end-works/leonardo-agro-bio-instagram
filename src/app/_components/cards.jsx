@@ -13,7 +13,7 @@ export default function Cards() {
 
   return (
     <main className="flex h-auto w-full flex-col gap-15 p-5 md:p-30">
-      <section className="grid h-auto w-full grid-cols-1 justify-center gap-10 text-black md:grid-cols-[1fr_2fr]">
+      <section className="grid h-auto w-full grid-cols-1 justify-center gap-10 text-black xl:grid-cols-[1fr_2fr] ">
         <div className="flex h-auto w-full flex-col items-start justify-center gap-5">
           <h2 className="text-3xl">{currentAbout.title}</h2>
 
@@ -49,11 +49,11 @@ export default function Cards() {
           </div>
         </div>
 
-        <div className="flex h-auto w-full flex-col items-center justify-between gap-10 md:flex-row">
+        <div className="flex h-auto w-full flex-col items-center justify-between gap-10 md:flex-col xl:flex-row">
           {skills.map((skill, index) => (
             <article
               key={index}
-              className="flex h-auto w-full flex-col items-start justify-start gap-5 rounded-2xl p-5 shadow-2xl md:p-0 md:shadow-none"
+              className="flex h-auto w-full flex-col items-start justify-start gap-5 rounded-2xl p-5 shadow-2xl xl:p-0 xl:shadow-none"
             >
               <div className="rounded-full p-5 text-xl text-green-700 shadow-2xl">
                 {skill.icon}
@@ -73,19 +73,6 @@ export default function Cards() {
 
       <hr className="h-auto w-full border border-gray-200" />
 
-      <section className="flex h-auto w-full flex-col gap-5">
-        <div className="flex h-auto w-full flex-col items-center justify-center gap-5">
-          <h2 className="text-3xl text-black">Experiências</h2>
-
-          <p className="text-md text-center text-gray-400 md:text-xl">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-          </p>
-        </div>
-
-        <div className="h-auto w-full">
-          {/* Adicione aqui as imagens das experiências */}
-        </div>
-      </section>
     </main>
   );
 }
