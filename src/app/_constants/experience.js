@@ -4,9 +4,9 @@ export const experiences = [
   },
   { "Relação custo-benefício": "/experience/relacao-beneficio.jpeg" },
   {
-    "Escolha de culturas agrícolas":
-      "/experience/escolhas-agricolas.jpeg",
+    "Aprimoramento da produção animal":
+      "/experience/aprimorar-producao-animal.jpeg",
   },
-  { "Análise de solo": "/experience/analise-solo.jpeg" },
+  { "Melhoramento de pastagens": "/experience/analise-solo.jpeg" },
   { "Nutrição animal": "/experience/nutricao-animal.jpeg" },
 ];
